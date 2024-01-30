@@ -1,4 +1,6 @@
-This is the code repository implementing the paper "Morig: Motion-aware rigging of character meshes from point clouds".
+# Motion Rigging Code Repository
+
+This is the code repository implementing the paper "Morig: Motion-aware rigging of character meshes from point clouds". You can access it [here](https://zhan-xu.github.io/motion-rig/).
 
 **[2023.02.17]** About the ModelsResources dataset: If you are from a research lab and interested in the dataset for non-commercial, research-only purposes, please send a request email to me at zhanxu@cs.umass.edu.
 
