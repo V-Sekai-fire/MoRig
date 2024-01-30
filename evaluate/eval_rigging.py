@@ -46,10 +46,10 @@ def get_joint_with_name(skel):
 
 
 def eval_rig(bandwidth_quantile=0.04, threshold1=0.1, threshold2=0.02):
-    mesh_folder = "/mnt/DATA_LINUX2/zhan/morig/ModelsResources/obj_remesh/"
-    info_folder = "/mnt/DATA_LINUX2/zhan/morig/ModelsResources/rig_info_remesh/"
-    vox_folder = "/mnt/DATA_LINUX2/zhan/morig/ModelsResources/vox/"
-    featuresize_folder = '/mnt/DATA_LINUX2/zhan/morig/ModelsResources/joint_featuresize/'
+    mesh_folder = "ModelsResources/obj_remesh/"
+    info_folder = "ModelsResources/rig_info_remesh/"
+    vox_folder = "ModelsResources/vox/"
+    featuresize_folder = 'ModelsResources/joint_featuresize/'
     ply_folder = "results/our_results/"
     attn_folder = "results/our_results/"
     output_folder = f"results/our_results/"
