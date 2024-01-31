@@ -3,7 +3,7 @@ import torch
 from torch.nn import Sequential as Seq, Linear as Lin, ReLU, BatchNorm1d as BN
 from torch_geometric.nn.conv import MessagePassing
 from torch_geometric.utils import remove_self_loops, add_self_loops
-from torch_geometric.nn import knn_interpolate, fps, radius, global_max_pool, PointConv
+from torch_geometric.nn import knn_interpolate, fps, radius, global_max_pool, PointNetConv
 
 
 def radius_cpu(x, y, r, max_num_neighbors):
